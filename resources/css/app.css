@@ -1,0 +1,40 @@
+/* Elimina las reglas relacionadas con el tema oscuro y claro */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+body.light-mode {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.navbar-dark-mode {
+    background-color: #343a40;
+}
+
+.navbar-light-mode {
+    background-color: #ffffff;
+}
+
+/* Otros estilos del sistema de inventario */
+.table .btn {
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+    margin-right: 0.25rem;
+}
+
+.table .btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+.table .btn-warning {
+    background-color: #ffc107;
+    border-color: #ffc107;
+}
+
+.table .btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
